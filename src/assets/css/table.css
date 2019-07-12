@@ -1,0 +1,44 @@
+/* 表格样式 */
+table {
+  border: 1px solid #ffffff;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 20px auto;
+}
+
+table th {
+  background: #409eff;
+  color: #fff;
+  border-bottom-width: 0;
+  text-align: center;
+  height: 2.2rem;
+}
+
+table th:nth-child(1) {
+  width: 60px;
+}
+
+table th:nth-child(2) {
+  width: 160px;
+}
+
+table th:nth-child(3) {
+  width: 180px;
+}
+
+table th:nth-child(4) {
+  width: 100px;
+}
+
+table td {
+  background: #d9ecff;
+  text-align: center;
+  height: 2.2rem;
+}
+
+table td:nth-child(1) {
+  color: #ffffff;
+  background: #66b1ff;
+  text-align: center;
+  height: 2.2rem;
+}
